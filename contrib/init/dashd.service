@@ -1,15 +1,15 @@
 [Unit]
-Description=Dash's distributed currency daemon
+Description=Square's distributed currency daemon
 After=network.target
 
 [Service]
-User=dashcore
-Group=dashcore
+User=squarecore
+Group=squarecore
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/dashcore/dash.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/squared/squared.pid
+ExecStart=/usr/bin/squared -daemon -pid=/var/lib/squared/squared.pid \
+-conf=/etc/squarecore/square.conf -datadir=/var/lib/squared -disablewallet
 
 Restart=always
 PrivateTmp=true

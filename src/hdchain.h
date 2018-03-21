@@ -1,7 +1,8 @@
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2017 The D*a*sh Core developers
+// Copyright (c) 2018- The Square Core developers
 // Distributed under the MIT software license, see the accompanying
-#ifndef DASH_HDCHAIN_H
-#define DASH_HDCHAIN_H
+#ifndef SQUARE_HDCHAIN_H
+#define SQUARE_HDCHAIN_H
 
 #include "key.h"
 #include "sync.h"
@@ -149,4 +150,4 @@ public:
     std::string GetKeyPath() const;
 };
 
-#endif // DASH_HDCHAIN_H
+#endif // SQUARE_HDCHAIN_H

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Square
+Comment=Square P2P Cryptocurrency
+Comment[fr]=Square, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Square, eşten eşe kriptografik sanal para birimi
+Exec=square-qt %u
+Terminal=false
+Type=Application
+Icon=square128
+MimeType=x-scheme-handler/square;
+Categories=Office;Finance;

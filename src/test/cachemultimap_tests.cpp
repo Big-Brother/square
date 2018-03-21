@@ -1,8 +1,9 @@
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2017 The D*a*sh Core developers
+// Copyright (c) 2018- The Square Core developers
 
 #include "cachemultimap.h"
 
-#include "test/test_dash.h"
+#include "test/test_square.h"
 
 #include <algorithm>
 #include <iostream>
