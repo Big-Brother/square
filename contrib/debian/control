@@ -25,7 +25,7 @@ Build-Depends: debhelper,
  python
 Standards-Version: 3.9.2
 Homepage: https://www.gosquare.info/
-Vcs-Git: git@github.com:Big-Brother/square.git
+Vcs-Git: https://github.com/Big-Brother/square.git
 Vcs-Browser: https://github.com/Big-Brother/square
 
 Package: squared
